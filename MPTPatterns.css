@@ -1,0 +1,60 @@
+/* MPTPATTERNS CSS definitions - default is "mpt"
+ * add to MediaWiki:Common.css
+ */
+
+/* USED WITH ALL STYLES */
+/* float, used with pattern attribute float (float="left" | float="right") */
+.mpt_float_left { float:left; margin-right:12px; }
+.mpt_float_right { float:right; margin-left:12px; }
+
+
+/* STYLES */
+/* If you define a new style, keep in mind that the 'mpt_' prefix is mandatory */
+
+/* <pattern css="mpt" */
+div.mpt_mpt { border:1px solid #ddd; font:12px Consolas,'Courier New',Courier,monospace; background:#fff; }
+div.mpt_mpt div.title { border:1px solid #eee; background:#128; font:12px sans-serif; text-align:center; color:#fe2; padding:4px; }
+div.mpt_mpt p-id  /*identifier*/ { padding-left:4px; font-size:80%; color:#555; }
+div.mpt_mpt p-div /*divider   */ { color:#808080; border-left: 1px solid #ddd; border-right: 1px solid #888; overflow: hidden; width: 0; padding: 0; margin: 0 3px 0 1px; display: inline-block; text-indent: 100px; }
+div.mpt_mpt p-not /*note      */ { padding-right:4px; color:#000080; }
+div.mpt_mpt p-ins /*instrument*/ { padding-right:4px; color:#008080; }
+div.mpt_mpt p-glo /*global    */ { padding-right:4px; color:#800000; }
+div.mpt_mpt p-vol /*volume    */ { padding-right:4px; color:#008000; }
+div.mpt_mpt p-pan /*panning   */ { padding-right:4px; color:#008080; }
+div.mpt_mpt p-pit /*pitch     */ { padding-right:4px; color:#808000; }
+div.mpt_mpt p-oth /*other     */ { padding-right:4px; color:#000000; }
+div.mpt_mpt p-def /*default   */ { padding-right:4px; color:#000000; }
+div.mpt_mpt p-hig /*highlight */ { background-color:#d8e0d8; }
+div.mpt_mpt * { vertical-align: middle; }
+
+/* <pattern css="it" */
+div.mpt_it { border:1px solid #ddd; font:12px Consolas,'Courier New',Courier,monospace; background:#000; }
+div.mpt_it div.title { border:1px solid #eee; background:#128; font:12px sans-serif; text-align:center; color:#fe2; padding:4px; }
+div.mpt_it p-id  { padding-left:4px; font-size:80%; color:#0a0; }
+div.mpt_it p-div { color:#00aa00; border-left: 1px solid #94BC94; border-right: 1px solid #406840; overflow: hidden; width: 0; padding: 0; margin: 0 3px 0 1px; display: inline-block; text-indent: 100px; }
+div.mpt_it p-not { padding-right:4px; color:#00ff00; }
+div.mpt_it p-ins { padding-right:4px; color:#ffff00; }
+div.mpt_it p-glo { padding-right:4px; color:#ff4040; }
+div.mpt_it p-vol { padding-right:4px; color:#00ff00; }
+div.mpt_it p-pan { padding-right:4px; color:#00ffff; }
+div.mpt_it p-pit { padding-right:4px; color:#ffff00; }
+div.mpt_it p-oth { padding-right:4px; color:#00e000; }
+div.mpt_it p-def { padding-right:4px; color:#00e000; }
+div.mpt_it p-hig { background-color:#305830; }
+div.mpt_it * { vertical-align: middle; }
+
+/* <pattern css="buzz" */
+div.mpt_buzz { border:1px solid #ddd; font:12px Consolas,'Courier New',Courier,monospace; background:#e1dbd0; }
+div.mpt_buzz div.title { border:1px solid #eee; background:#128; font:12px sans-serif; text-align:center; color:#fe2; padding:4px; }
+div.mpt_buzz p-id  { padding-left:4px; font-size:80%; color:#555; }
+div.mpt_buzz p-div { color:#996; border-left: 1px solid #ECE8E1; border-right: 1px solid #ACA8A1; overflow: hidden; width: 0; padding: 0; margin: 0 3px 0 1px; display: inline-block; text-indent: 100px; }
+div.mpt_buzz p-not { padding-right:4px; color:#00005b; }
+div.mpt_buzz p-ins { padding-right:4px; color:#005555; }
+div.mpt_buzz p-glo { padding-right:4px; color:#600; }
+div.mpt_buzz p-vol { padding-right:4px; color:#005e00; }
+div.mpt_buzz p-pan { padding-right:4px; color:#006868; }
+div.mpt_buzz p-pit { padding-right:4px; color:#626200; }
+div.mpt_buzz p-oth { padding-right:4px; color:#3a3427; }
+div.mpt_buzz p-def { padding-right:4px; color:#3a3427; }
+div.mpt_buzz p-hig { background-color:#d1cac0; }
+div.mpt_buzz * { vertical-align: middle; }
