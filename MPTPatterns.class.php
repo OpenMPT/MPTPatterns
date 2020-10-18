@@ -50,13 +50,13 @@ class MPTPatterns {
 	private function readAttributes($args) {
 		$numeric=1; $lowercase=2; $uppercase=3;
 
-		$this->attr['title']     = $this->getAttribute($args[$this->env['attribute']['title']]);
-		$this->attr['format']    = $this->getAttribute($args[$this->env['attribute']['format']], $uppercase);
-		$this->attr['identifier']= $this->getAttribute($args[$this->env['attribute']['identifier']], $lowercase);
-		$this->attr['float']     = $this->getAttribute($args[$this->env['attribute']['float']], $lowercase);
-		$this->attr['highlight'] = $this->getAttribute($args[$this->env['attribute']['highlight']], $numeric);
-		$this->attr['width']     = $this->getAttribute($args[$this->env['attribute']['width']], $numeric);
-		$this->attr['css']       = $this->getAttribute($args[$this->env['attribute']['css']]);
+		$this->attr['title']     = $this->getAttribute($args[$this->env['attribute']['title']] ?? null);
+		$this->attr['format']    = $this->getAttribute($args[$this->env['attribute']['format']] ?? null, $uppercase);
+		$this->attr['identifier']= $this->getAttribute($args[$this->env['attribute']['identifier']] ?? null, $lowercase);
+		$this->attr['float']     = $this->getAttribute($args[$this->env['attribute']['float']] ?? null, $lowercase);
+		$this->attr['highlight'] = $this->getAttribute($args[$this->env['attribute']['highlight']] ?? null, $numeric);
+		$this->attr['width']     = $this->getAttribute($args[$this->env['attribute']['width']] ?? null, $numeric);
+		$this->attr['css']       = $this->getAttribute($args[$this->env['attribute']['css']] ?? null);
 	}
 
 	/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

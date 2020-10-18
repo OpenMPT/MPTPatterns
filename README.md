@@ -1,8 +1,8 @@
 # MPTPatterns
-This is a MediaWiki extension for beautifying ModPlug/OpenMPT pattern clipboard data for display on MediaWiki pages. It was specially built by [cubaxd](http://cubaxd.net/) for the German OpenMPT Wiki.
+This is a MediaWiki extension for beautifying ModPlug/OpenMPT pattern clipboard data for display on MediaWiki pages. It was specially built by [cubaxd](https://cubaxd.net/) for the German OpenMPT Wiki.
 
 # Requirements
-This extension has been running on MediaWiki for a long time without any modifications. Tested on MediaWiki up to version 1.27. It just works (TM).
+This extension has been running on MediaWiki for a long time without any modifications. Tested on MediaWiki up to version 1.35. It just works (TM).
 Note: This extension does not play well with the Collection extension - patterns won't be rendered in your exported file.
 
 # Installing
